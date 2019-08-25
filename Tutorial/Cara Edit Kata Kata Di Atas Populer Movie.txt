@@ -1,0 +1,21 @@
+Cara mengganti kata kata di atas populer post movie
+1. pilih tema 
+2. edit html
+3. tekan ctrl + f 
+4. cari kata Website layarkaco21
+5. silahkan edit scrpit tersebut pada template blogspot anda
+<script language='JavaScript'>
+<!--
+var r_text = new Array ();
+r_text[0] = "Website LayarKaco21 tidak pernah menyimpan file film atau movie di server, kami hanya menempelkan link yang didapat dari situs situs lain seperti Youtube, Openload dan lain lain ";
+r_text[1] = "LayarKaco21 hanya menyediakan film movie yang beresolusi 240 pixel dengan subtitle bahasa indonesia, Jika teman-teman mau kualitas HD kunjungi situs  http://nonton.layarkaco21.com ";
+r_text[2] = "Jika film tidak bisa di putar dan di unduh tolong matikan PROXY atau VPN nya, jika masih bermasalah  silahkan klik tombol LAPORKAN yang berwarna merah, agar admin segera memperbaharui link yang rusak tersebut ";
+r_text[3] = "Bagi teman-teman yang baik hati silahkan klik tombol DONASI agar web ini berkembang terus, Dan terima kasih bagi teman-teman yang sudah mengklik iklan di website LayarKaco21 ";
+r_text[4] = "Untuk Request Film dan diskusi tentang film lainnya silahkan bergabung di forum atau grup facebook LK21 http://forum.layarkaco21.com, baca aturan sebelum memposting di grup ";
+r_text[5] = "Website LayarKaca21.Com dan LayarKaco21.Com itu berbeda, web ini hanya sebagai pendukung untuk streaming kecil karena lebih menghematkan memori dan paket internet anda ";
+r_text[6] = "Sebelum mengunduh/ Download Film Movie nya harap baca PETUNJUK terlebih dahulu dan coba putar Film nya apakah sesuai dengan yang dicari";
+var i = Math.floor(7*Math.random())
+document.write(r_text[i]);
+//-->
+</script>
+6. simpan tema

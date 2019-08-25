@@ -1,0 +1,10 @@
+<div id="myElement">
+Sedang Proses...<span id="goog_29300668"></span><span id="goog_29300669"></span><span id="goog_1003304907"></span><span id="goog_1003304908"></span></div>
+<script type="text/javascript">
+    jwplayer("myElement").setup({
+        file: "link video .mp4",
+ width: "100%",
+ aspectratio: "16:9",
+        image: "link gambar .jpg"
+    });
+</script></div>

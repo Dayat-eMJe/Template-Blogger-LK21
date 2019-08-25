@@ -1,0 +1,70 @@
+<h2 class="title"><span>FILTER MOVIE</span></h2>
+
+<form class="form-filter" action="/p/filter.html" id="form-filter">
+
+<div class="form-group"><select class="form-control" id="orderby"><option disabled />-- Berdasarkan --
+<option value="/search" />Movie
+<option value="/search" />Series</select></div>
+ 
+<div class="form-group"><select class="form-control" id="orderby"><option disabled />-- Negara --
+<option value="/search" />Amerika
+<option value="/search" />Belanda
+<option value="/search" />China
+<option value="/search" />Denmark
+<option value="/search" />Eropa
+<option value="/search" />Filipina
+<option value="/search" />Germani
+<option value="/search" />Haiti
+<option value="/search" />India
+<option value="/search" />Jepang
+<option value="/search" />Korea
+<option value="/search" />Libia
+<option value="/search" />Malaysia
+<option value="/search" />Nigeria
+<option value="/search" />Oman
+<option value="/search" />Pakistan
+<option value="/search" />Qatar
+<option value="/search" />Rusia
+<option value="/search" />Serbia
+<option value="/search" />Thailand
+<option value="/search" />Uganda
+<option value="/search" />Vietnam
+<option value="/search" />Yunani
+<option value="/search" />Zambia</select></div>
+
+<div class="form-group"><select class="form-control" id="orderby"><option disabled />-- Kategori --
+<option value="/search" />Aksi
+<option value="/search" />Animasi
+<option value="/search" />Komedi
+<option value="/search" />Keluarga
+<option value="/search" />Horor
+<option value="/search" />Sci-fi
+<option value="/search" />Thriler
+<option value="/search" />Romantis
+<option value="/search" />Drama
+<option value="/search" />Misteri
+<option value="/search" />Perang
+<option value="/search" />Musikal
+<option value="/search" />Petualangan</select></div>
+
+<div class="form-group"><select class="form-control" id="orderby"><option disabled />-- Tahun --
+<option value="/search" />2017
+<option value="/search" />2016
+<option value="/search" />2015
+<option value="/search" />2014
+<option value="/search" />2013
+<option value="/search" />2012
+<option value="/search" />2011
+<option value="/search" />2010
+<option value="/search" />2009
+<option value="/search" />2008
+<option value="/search" />2007
+<option value="/search" />2006
+<option value="/search" />2005
+<option value="/search" />2004
+<option value="/search" />2003
+<option value="/search" />2002
+<option value="/search" />2001
+<option value="/search" />2000</select></div>
+
+<div class="checkbox"> <label> <input type="checkbox" value="1" name="hdonly" /> Hanya 240 P </label> </div><button type="submit" class="btn btn-primary">Filter Movie</button></form>
